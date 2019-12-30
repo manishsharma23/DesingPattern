@@ -4,8 +4,8 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("asdsadasd ...  11");
-
+		SingaltonClass singaltonClassObj =SingaltonClass.singaltonClassObj();
+		System.out.println("singaltonClassObj ...  11"+singaltonClassObj);
 	}
 
 }
